@@ -1,5 +1,22 @@
+body {
+    margin: 0px;
+}
+
+body > #bg {
+    margin: 0%;
+    height:  100%;
+    width: 100%;
+    background-image: url("images/wallpaper.jpg");
+    background-size: 100% auto;
+    clip-path: polygon(0 0, 100% 0, 100% 35%, 34% 100%, 0 100%);
+    position: absolute;
+    z-index: -1;
+}
+
 h1 {
+    margin-top: 0px;
     text-align: center;
+    color: ivory;
 }
 
 
